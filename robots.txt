@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
-Sitemap: https://gislaweb.com/sitemap.xml
+Sitemap: https://gislasas.com/sitemap.xml
 
 # Disallow access to specific directories
 Disallow: /assets/
