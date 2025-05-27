@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Sitemap: https://gislaweb.com/sitemap.xml
+
+# Disallow access to specific directories
+Disallow: /assets/
+Disallow: /img/
+Disallow: /css/
+Disallow: /js/
+
+# Allow access to specific file types
+Allow: /*.html$
+Allow: /*.xml$ 
