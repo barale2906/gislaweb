@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nuestros Productos - GISLA S.A.S.</title>
+        <link rel="shortcut icon" href="img/icon.ico" type="image/x-icon">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body class="bg-gray-50 text-gray-800">
+
+        <header id="navbar" class="bg-white shadow-md transition-all duration-300">
+            <nav class="container mx-auto px-4 sm:px-6 py-3 flex justify-between items-center">
+                <div class="logo-container">
+                    <img src="img/logo.png" alt="Logo de GISLA SAS" class="company-logo mr-2 sm:mr-3" onerror="this.onerror=null;this.src='https://placehold.co/120x40/cccccc/FFFFFF?text=Logo&font=inter'; this.alt='Logo no disponible';">
+                </div>
+                <div class="logo-modal" id="logoModal">
+                    <img src="img/logo.png" alt="Logo de GISLA SAS" onerror="this.onerror=null;this.src='https://placehold.co/120x40/cccccc/FFFFFF?text=Logo&font=inter'; this.alt='Logo no disponible';">
+                </div>
+                
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-600 hover:text-blue-600 focus:outline-none p-2">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="hamburger-icon">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                        <svg class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="close-icon">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="hidden md:flex space-x-2 lg:space-x-3 items-center">
+                    <a href="#hero" class="nav-link text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm lg:text-base">Inicio</a>
+                    <a href="#mensajeria-especializada-section" class="nav-link text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm lg:text-base">
+                        Mensajería Especializada
+                    </a>
+                    <a href="#dad-tecnologia-section" class="nav-link text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm lg:text-base">
+                        Desarrollo Software
+                    </a>
+                    <a href="#moda-confecciones-section" class="nav-link text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm lg:text-base">
+                        Moda - Confecciones
+                    </a>
+                </div>
+            </nav>
+
+            <div id="mobile-menu" class="md:hidden bg-white shadow-lg absolute top-full left-0 right-0 z-40 opacity-0 transform -translate-y-2">
+                <a href="#hero" class="block nav-link-mobile text-gray-700 hover:bg-blue-50 hover:text-blue-600 px-4 py-3 border-b border-gray-200 transition-colors duration-150">Inicio</a>
+                <a href="#mensajeria-especializada-section" class="block nav-link-mobile text-gray-700 hover:bg-blue-50 hover:text-blue-600 px-4 py-3 border-b border-gray-200 transition-colors duration-150">Mensajería Especializada</a>
+                <a href="#dad-tecnologia-section" class="block nav-link-mobile text-gray-700 hover:bg-blue-50 hover:text-blue-600 px-4 py-3 border-b border-gray-200 transition-colors duration-150">Desarrollo Software</a>
+                <a href="#moda-confecciones-section" class="block nav-link-mobile text-gray-700 hover:bg-blue-50 hover:text-blue-600 px-4 py-3 transition-colors duration-150">
+                    Moda - Confecciones
+                </a>
+            </div>
+        </header>
+
+        <section id="hero" class="bg-gradient-to-r from-blue-600 to-indigo-700 text-white pt-20 pb-20 md:pt-32 md:pb-28">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 fade-in-up">Innovación y Calidad en Cada Producto</h1>
+                <p class="text-lg md:text-xl mb-8 max-w-2xl mx-auto fade-in-up" style="transition-delay: 0.2s;">Descubre cómo nuestras soluciones pueden impulsar tu negocio. Ofrecemos productos diseñados para la excelencia y la eficiencia.</p>
+                <a href="#mensajeria-especializada-section" class="bg-white text-blue-700 font-semibold px-8 py-3 rounded-lg shadow-lg hover:bg-gray-100 transition duration-300 transform hover:scale-105 fade-in-up" style="transition-delay: 0.4s;">Explorar Productos</a>
+            </div>
+        </section>
+
+        <section id="mensajeria-especializada-section" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12 md:mb-16 fade-in-up">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800">Mensajería Especializada</h2>
+                    <p class="text-lg text-gray-600 mt-2 max-w-xl mx-auto">Tu aliado confiable para diligencias, entregas de productos pequeños y medicamentos en Bogotá y alrededores. No realizamos domicilios de alimentos.</p>
+                    <div class="mt-4 w-24 h-1 bg-blue-600 mx-auto rounded"></div>
+                    <div class="mt-4 w-24 h-1 bg-blue-600 mx-auto rounded"></div>
+                </div>
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div class="fade-in-up">
+                        <img src="img/motogisla.png" alt="Imagen de Mensajería Especializada" class="rounded-lg shadow-xl w-full" onerror="this.onerror=null;this.src='https://placehold.co/600x400/cccccc/FFFFFF?text=Imagen+no+disponible&font=inter';">
+                    </div>
+                    <div class="fade-in-up" style="transition-delay: 0.2s;">
+                        <h3 class="text-2xl font-semibold text-gray-700 mb-4">Características Destacadas del Servicio:</h3>
+                        <ul class="space-y-3 text-gray-600">
+                            <li class="flex items-start">
+                                <svg class="w-6 h-6 text-blue-500 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m0-4l-4 4-4-4"></path></svg>
+                                <span>Realización de diligencias y trámites varios.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-6 h-6 text-blue-500 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10m16-5H4m12 5l3-3-3-3"></path></svg>
+                                <span>Entrega segura de productos pequeños y paquetería ligera.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-6 h-6 text-blue-500 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                <span>Servicio de compras a nombre de terceros (con especificaciones claras).</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-6 h-6 text-blue-500 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                                <span>Verificación de direcciones y ubicaciones.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-6 h-6 text-blue-500 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 008 10.172V5L7 4z"></path></svg>
+                                <span>Especialización en la entrega cuidadosa y prioritaria de medicamentos.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-6 h-6 text-blue-500 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                <span>Cobertura en Bogotá y municipios aledaños.</span>
+                            </li>
+                        </ul>
+                        <div class="mt-8">
+                            <a href="mensajeria-especializada.html" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300 mr-4 text-center">Conocer Más Detalles</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="dad-tecnologia-section" class="py-16 md:py-24 bg-gray-100">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12 md:mb-16 fade-in-up">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800">DAD-Tecnología - Desarrollo de Software</h2>
+                    <p class="text-lg text-gray-600 mt-2 max-w-xl mx-auto">Soluciones de software a la medida, IA y SaaS para transformar y potenciar tu negocio, cumpliendo con la legislación vigente.</p>
+                    <div class="mt-4 w-24 h-1 bg-indigo-600 mx-auto rounded"></div>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div class="fade-in-up order-last md:order-first" style="transition-delay: 0.2s;">
+                        <h3 class="text-2xl font-semibold text-gray-700 mb-6">Transformamos tus Ideas en Realidad Digital:</h3>
+                        <ul class="space-y-4 text-gray-600">
+                            <li class="service-feature-item">
+                                <svg class="w-7 h-7 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                                <span><strong>Software a la Medida:</strong> Desarrollos web y móviles (Apps) personalizados según tus requerimientos exactos y procesos de negocio.</span>
+                            </li>
+                            <li class="service-feature-item">
+                                <svg class="w-7 h-7 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                                <span><strong>Soluciones con Inteligencia Artificial:</strong> Integramos IA para automatizar, predecir y optimizar, como chatbots avanzados (ej. WhatsApp + Agente IA) y análisis de datos.</span>
+                            </li>
+                            <li class="service-feature-item">
+                                <svg class="w-7 h-7 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2h10a2 2 0 002-2v-1a2 2 0 012-2h1.945M7.737 11l-.569-1.422a1 1 0 01.363-1.118l2.424-1.818a1 1 0 011.118-.063l.569 1.422m0 0l.569 1.422a1 1 0 01-.363 1.118l-2.424 1.818a1 1 0 01-1.118.063l-.569-1.422m0 0l6.863-5.147M3 21h18"></path></svg>
+                                <span><strong>Plataformas SaaS:</strong> Creamos y ofrecemos Software como Servicio, escalable y accesible para tus clientes o tu operación interna.</span>
+                            </li>
+                            <li class="service-feature-item">
+                                <svg class="w-7 h-7 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                                <span><strong>Optimización y Escalabilidad:</strong> Soluciones diseñadas para crecer contigo, mejorar la eficiencia y asegurar el cumplimiento normativo.</span>
+                            </li>
+                            <li class="service-feature-item">
+                                <svg class="w-7 h-7 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                                <span><strong>Consultoría y Soporte Integral:</strong> Te asesoramos desde la concepción de la idea hasta el mantenimiento y evolución de tu software.</span>
+                            </li>
+                        </ul>
+                        <div class="mt-8">
+                            <a href="dad-tecnologia.html" class="inline-block bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition duration-300 mr-4 text-center mb-2 sm:mb-0">Explora Nuestras Soluciones</a>
+                        </div>
+                    </div>
+                    <div class="fade-in-up order-first md:order-last">
+                        <img src="img/software.png" alt="DAD-Tecnología - Desarrollo de Software" class="rounded-lg shadow-xl w-full">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="moda-confecciones-section" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12 md:mb-16 fade-in-up">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800">Moda - Confecciones</h2>
+                    <p class="text-lg text-gray-600 mt-2 max-w-xl mx-auto">Diseños exclusivos y producción en volumen para damas, caballeros y dotaciones empresariales. Innovación y calidad en cada prenda.</p>
+                    <div class="mt-4 w-24 h-1 bg-green-500 mx-auto rounded"></div>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div class="fade-in-up">
+                        <img src="img/moda.png" alt="Moda - Confecciones" class="rounded-lg shadow-xl w-full h-auto object-cover" onerror="this.onerror=null;this.src='https://placehold.co/600x450/cccccc/FFFFFF?text=Imagen+no+disponible&font=inter';">
+                    </div>
+                    <div class="fade-in-up" style="transition-delay: 0.2s;">
+                        <h3 class="text-2xl font-semibold text-gray-700 mb-6">Estilo y Producción que Marcan la Diferencia:</h3>
+                        <ul class="space-y-4 text-gray-600">
+                            <li class="service-feature-item">
+                                <svg class="w-7 h-7 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.539 1.118l-3.975-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.196-1.539-1.118l1.519-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.783-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+                                <span><strong>Diseños Exclusivos:</strong> Creaciones únicas y vanguardistas para ropa de dama y caballero, reflejando las últimas tendencias y tu estilo personal.</span>
+                            </li>
+                            <li class="service-feature-item">
+                                <svg class="w-7 h-7 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                                <span><strong>Producción en Volumen:</strong> Confección de camisetas, pantalones, camisas, chaquetas (pesadas y livianas) con altos estándares de calidad.</span>
+                            </li>
+                            <li class="service-feature-item">
+                                <svg class="w-7 h-7 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                                <span><strong>Dotaciones Empresariales:</strong> Diseño y confección de uniformes y ropa de trabajo que reflejan la identidad de tu marca y garantizan comodidad.</span>
+                            </li>
+                            <li class="service-feature-item">
+                                <svg class="w-7 h-7 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+                                <span><strong>Calidad en Materiales y Acabados:</strong> Selección cuidadosa de textiles y atención al detalle en cada costura para prendas duraderas y con excelente presentación.</span>
+                            </li>
+                                <li class="service-feature-item">
+                                <svg class="w-7 h-7 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5v4m0 0h-4m4 0l-5-5"></path></svg>
+                                <span><strong>Asesoría Personalizada:</strong> Te acompañamos desde la conceptualización del diseño hasta la entrega final, asegurando tu satisfacción.</span>
+                            </li>
+                        </ul>
+                        <div class="mt-8">
+                            <a href="moda-confecciones.html" class="inline-block bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600 transition duration-300 mr-4 text-center mb-2 sm:mb-0">Descubre Colecciones y Servicios</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="bg-gray-900 text-gray-400 py-12">
+            <div class="container mx-auto px-6 text-center">
+                <p>&copy; <span id="currentYear"></span> GISLA MENSAJERIA CREATIVIDAD Y TECNOLOGIA S.A.S. GISLA. Todos los derechos reservados.</p>
+                
+                <!-- Contacto con iconos -->
+                <div class="mt-4 flex justify-center space-x-6">
+                    <!-- Email -->
+                    <a href="mailto:gislasas@gmail.com" class="flex items-center text-gray-300 hover:text-white transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                        </svg>
+                        gislasas@gmail.com
+                    </a>
+                    
+                    <!-- WhatsApp -->
+                    <a href="https://wa.me/573002172663" target="_blank" class="flex items-center text-gray-300 hover:text-white transition-colors">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                        </svg>
+                        +57 300 2172663
+                    </a>
+                </div>
+                
+                <p class="text-sm mt-4">Diseñado con ❤️ y Tailwind CSS por GISLA S.A.S.</p>
+            </div>
+        </footer>
+
+        <a href="#" id="ai-agent-button" class="bg-blue-600 hover:bg-blue-700 text-white p-4 rounded-full shadow-lg" title="Contactar Agente IA">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 5.523-4.477 10-10 10S1 17.523 1 12 5.477 2 11 2s10 4.477 10 10z" /></svg>
+        </a>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,1 @@
+document.getElementById('landingCurrentYear').textContent = new Date().getFullYear(); 
